@@ -1,0 +1,66 @@
+* {
+
+    background: url(./assets/Background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+main {
+
+    display: flex;
+    margin: 160px 249px 900px 295px;
+    width: 380px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+
+    font-family: "Outfit";
+    color: #D6D6F2;
+
+    
+}
+
+#aviso {
+    padding: 15px;
+    align-self: stretch;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    
+}
+
+#info {
+    padding: 15px;
+    align-self: stretch;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+    
+}
+a {
+    text-decoration: none;
+}
+
+
+button {
+    display: inline;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+    color: #e2e2f5;
+
+    border-color: #0000;
+    border-radius: 999px;
+    background: #151557;
+    
+}
+
+
+
